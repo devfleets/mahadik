@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { collection, doc, getDocs, getDoc } from "firebase/firestore";
-import { db } from '../lib/firebase';
+import { db } from '../../../../../firebase/firebase';
 
 export default function FetchNestedData() {
     const [data, setData] = useState([]);

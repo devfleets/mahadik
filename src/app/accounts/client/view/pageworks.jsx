@@ -14,7 +14,7 @@ const fetchDataFromFirestore = async () => {
         return [];
     }
 };
-
+const newhlo = "1";
 // Label + Value component
 const Field = ({ label, value }) => (
     <div className="mb-2">
@@ -22,6 +22,8 @@ const Field = ({ label, value }) => (
         <p className="text-gray-600">{value || "N/A"}</p>
     </div>
 );
+////hfh
+
 
 // Main ClientBills component
 const ClientBills = () => {
